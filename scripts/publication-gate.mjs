@@ -10,7 +10,7 @@ export function calendar(now = new Date()) {
   monday.setUTCDate(monday.getUTCDate() - (monday.getUTCDay() + 6) % 7);
   return { date, week: monday.toISOString().slice(0, 10), eligible: p.weekday === 'Sunday' && (+p.hour * 60 + +p.minute) >= 1337 };
 }
-export const digest = text => createHash('sha256').update(text).digest('hex');
+export const digest = text => createHash('sha256').update(text.replace(/\r\n/g, '\n')).digest('hex');
 export const wordCount = text => (text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').match(/\b[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*\b/gu) || []).length;
 const checks = ['technicalAccuracy', 'claimSupport', 'referenceAuthenticity', 'arithmetic', 'authorIdentity', 'metadata', 'duplicateContent', 'articleLinks', 'imageRights', 'feasibility'];
 export function prepare(candidate, entries, state, now = new Date(), readArticle = p => readFileSync(p, 'utf8')) {

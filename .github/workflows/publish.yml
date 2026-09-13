@@ -19,4 +19,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: node --test scripts/publication-gate.test.mjs
       - run: node scripts/validate-publication.mjs
