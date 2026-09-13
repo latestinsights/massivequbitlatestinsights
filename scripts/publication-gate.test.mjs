@@ -29,4 +29,3 @@ test('gate fails closed on altered article, unverified references, wrong metadat
     const c = fixture(); mutate(c); assert.throws(() => prepare(c, [], {}, now));
   }
 });
-
