@@ -2,7 +2,7 @@
   {
     "title": "The Future of Digital Twins in Manufacturing",
     "excerpt": "Exploring how digital twin technology is revolutionizing manufacturing processes and enabling Industry 4.0 transformation.",
-    "author": "Dr. Sarah Chen",
+    "author": "concierge@massivequbit.io",
     "date": "2024-01-15",
     "readTime": "8 min read",
     "category": "Manufacturing",
@@ -11,13 +11,13 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "Modern manufacturing facility with digital twin visualization overlay",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/the-future-of-digital-twins-in-manufacturing.md"
   },
   {
     "title": "Open Source vs Proprietary Digital Twin Platforms",
     "excerpt": "A comprehensive comparison of open-source and proprietary digital twin solutions, helping you choose the right approach.",
-    "author": "Alex Kim",
+    "author": "concierge@massivequbit.io",
     "date": "2024-01-10",
     "readTime": "12 min read",
     "category": "Technology",
@@ -26,13 +26,13 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "Split screen showing open source code and proprietary platform interface",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/open-source-vs-proprietary-digital-twin-platforms.md"
   },
   {
     "title": "Implementing Real-Time IoT Data Streams",
     "excerpt": "Best practices for integrating IoT sensors and real-time data streams into your digital twin architecture.",
-    "author": "Dr. Emily Watson",
+    "author": "concierge@massivequbit.io",
     "date": "2024-01-05",
     "readTime": "10 min read",
     "category": "IoT",
@@ -41,13 +41,13 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "IoT sensors and data streams flowing into digital twin system",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/implementing-real-time-iot-data-streams.md"
   },
   {
     "title": "Security Considerations for Digital Twin Deployments",
     "excerpt": "Essential security measures and compliance requirements for enterprise digital twin implementations.",
-    "author": "Marcus Rodriguez",
+    "author": "concierge@massivequbit.io",
     "date": "2023-12-28",
     "readTime": "15 min read",
     "category": "Security",
@@ -56,13 +56,13 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "Cybersecurity shield protecting digital twin infrastructure",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/security-considerations-for-digital-twin-deployments.md"
   },
   {
     "title": "AI-Powered Predictive Analytics in Digital Twins",
     "excerpt": "Leveraging artificial intelligence and machine learning for advanced predictive capabilities in digital twin systems.",
-    "author": "Dr. Sarah Chen",
+    "author": "concierge@massivequbit.io",
     "date": "2023-12-20",
     "readTime": "11 min read",
     "category": "AI/ML",
@@ -71,13 +71,13 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "AI neural network analyzing digital twin data for predictions",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/ai-powered-predictive-analytics-in-digital-twins.md"
   },
   {
     "title": "Digital Twin ROI: Measuring Success Metrics",
     "excerpt": "Key performance indicators and methodologies for measuring the return on investment of digital twin projects.",
-    "author": "Dr. James Thompson",
+    "author": "concierge@massivequbit.io",
     "date": "2023-12-15",
     "readTime": "9 min read",
     "category": "Business",
@@ -86,7 +86,7 @@
     "section": "latestinsights",
     "status": "published",
     "migratedSummary": true,
-    "imageAlt": "Business dashboard showing digital twin ROI metrics and charts",
+    "imageAlt": "MassiveQubit logo",
     "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/digital-twin-roi-measuring-success-metrics.md"
   }
 ]

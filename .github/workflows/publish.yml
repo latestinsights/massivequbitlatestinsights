@@ -1,44 +1,22 @@
-name: Publish insights
+name: Validate published insights
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 22 * * 0'
   push:
     branches: [main]
-    paths: ['entries.json', 'latestinsights/**', 'wikis/**', 'projects/**', 'scripts/**', '.github/workflows/publish.yml']
   pull_request:
     branches: [main]
 permissions:
   contents: read
 concurrency:
-  group: insights-${{ github.ref }}
+  group: insights-validation-${{ github.ref }}
   cancel-in-progress: false
 jobs:
-  publish:
+  validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate and build feed
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          if [ "$EVENT" = "schedule" ] || [ "$EVENT" = "workflow_dispatch" ]; then
-            node scripts/publish.mjs --weekly
-          else
-            node scripts/publish.mjs
-          fi
-      - name: Commit publication
-        if: github.event_name != 'pull_request'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add entries.json feed.json publication-state.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Publish latest insights feed'
-            git push
-          fi
+      - run: node scripts/validate-publication.mjs
