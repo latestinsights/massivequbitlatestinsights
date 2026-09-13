@@ -1,4 +1,4 @@
-const feedUrl = 'https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/main/feed.json';
+const feedUrl = 'https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/refs/heads/main/feed.json';
 const state = JSON.parse(await (await import('node:fs/promises')).readFile('publication-state.json', 'utf8'));
 const expectedId = state.weeks?.[state.lastAutomationWeek]?.id;
 if (!expectedId) throw new Error('Publication ledger has no expected weekly article ID');
