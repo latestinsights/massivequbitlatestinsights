@@ -9,7 +9,7 @@ export function publicationWindow(now = new Date()) {
   }).formatToParts(now).map(part => [part.type, part.value]));
   const date = `${parts.year}-${parts.month}-${parts.day}`;
   const day = new Date(`${date}T12:00:00Z`);
-  day.setUTCDate(day.getUTCDate() - day.getUTCDay());
+  day.setUTCDate(day.getUTCDate() - (day.getUTCDay() + 6) % 7);
   const minutes = Number(parts.hour) * 60 + Number(parts.minute);
   return { date, week: day.toISOString().slice(0, 10), eligible: parts.weekday === 'Sunday' && minutes >= 1290 && minutes < 1440 };
 }

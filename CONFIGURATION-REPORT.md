@@ -6,6 +6,7 @@
 - Five local tests passed: malformed/unsafe feed rejection; retired queue refusal without feed writes; Sydney daylight-saving and year/week boundaries; no-write preparation and duplicate-week refusal; invalid source records, changed articles, wrong metadata and stale reviews refused. Content CI also executes the publication gate tests. Production Vite build passed.
 - Publication boundary: new Markdown, evidence review, entries, feed and week ledger in one normal Git push. A rejected or ambiguous push must reconcile remote state before retry. No force pushes. At most one new article per Monday–Sunday Sydney calendar week. All existing IDs are protected from new-article overwrite; the six separate full drafts remain pending approval.
 - Credentials verified: Git push access to both repositories; existing AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_DUNE_07452BF10 secret name present and deployment successful. The content repository currently has no OPENAI_API_KEY secret, so future cloud research runs are configured but credential-blocked. No secret values were read or committed.
+- Cloud dry run 34754227821 reached the GitHub runner with the repository checked out, then failed closed at the explicit credential preflight because OPENAI_API_KEY is absent. It performed no research, writes or publication.
 
 ## Exact scope of testing
 
