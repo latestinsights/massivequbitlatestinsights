@@ -1,0 +1,138 @@
+{
+  "id": "deterministic-digital-twins-at-the-edge-with-fmi-3-scheduled-execution",
+  "researchedAt": "2026-09-14T09:00:00Z",
+  "publicationDateSydney": "2026-09-14",
+  "automationWeek": "2026-09-14",
+  "selection": {
+    "chosen": "FMI 3.0 Scheduled Execution for deterministic edge digital twins",
+    "rationale": "Fresh relative to the six existing articles; combines a current interoperability standard with a feasible staged path from desktop validation to shadow edge operation and advisory use.",
+    "candidates": [
+      {
+        "topic": "FMI 3.0 Scheduled Execution at the industrial edge",
+        "novelty": 8,
+        "evidence": 8,
+        "feasibility": 8,
+        "practicality": 9
+      },
+      {
+        "topic": "OPC UA FX and TSN for controller-to-controller twin data",
+        "novelty": 8,
+        "evidence": 7,
+        "feasibility": 6,
+        "practicality": 7
+      },
+      {
+        "topic": "Asset Administration Shell submodels for portable maintenance twins",
+        "novelty": 7,
+        "evidence": 8,
+        "feasibility": 7,
+        "practicality": 8
+      }
+    ],
+    "duplicateReview": {
+      "existingTitles": [
+        "The Future of Digital Twins in Manufacturing",
+        "Open Source vs Proprietary Digital Twin Platforms",
+        "Implementing Real-Time IoT Data Streams",
+        "Security Considerations for Digital Twin Deployments",
+        "AI-Powered Predictive Analytics in Digital Twins",
+        "Digital Twin ROI: Measuring Success Metrics"
+      ],
+      "result": "No existing article focuses on FMI, FMUs, deterministic scheduling, model partitions, or virtual commissioning."
+    }
+  },
+  "sources": [
+    {
+      "type": "peer-reviewed conference paper",
+      "fullTextReviewed": true,
+      "title": "Functional Mockup Interface 2.0: The Standard for Tool independent Exchange of Simulation Models",
+      "authors": [
+        "Torsten Blochwitz",
+        "Martin Otter",
+        "Johan Åkesson",
+        "Martin Arnold",
+        "Christoph Clauß",
+        "Hilding Elmqvist",
+        "Markus Friedrich",
+        "Andreas Junghanns",
+        "Jakob Mauß",
+        "Dietmar Neumerkel",
+        "Hans Olsson",
+        "Antoine Viel"
+      ],
+      "date": "2012-11-19",
+      "venue": "Proceedings of the 9th International Modelica Conference; Linköping Electronic Conference Proceedings 76",
+      "doi": "10.3384/ecp12076173",
+      "url": "https://doi.org/10.3384/ecp12076173"
+    },
+    {
+      "type": "peer-reviewed journal article",
+      "fullTextReviewed": true,
+      "title": "Investigating the Functional Mock-up Interface as a Coupling Framework for the multi-fidelity analysis of nuclear reactors",
+      "authors": [
+        "Thomas Guilbaud",
+        "Carlo Fiorina",
+        "Stefano Lorenzi",
+        "Alessandro Scolaro",
+        "Federico Carminati",
+        "Donovan Maire",
+        "Andreas Pautz"
+      ],
+      "date": "2024",
+      "venue": "Progress in Nuclear Energy 169, 105022",
+      "doi": "10.1016/j.pnucene.2023.105022",
+      "url": "https://doi.org/10.1016/j.pnucene.2023.105022",
+      "license": "CC BY 4.0"
+    },
+    {
+      "type": "authoritative technical specification",
+      "fullTextReviewed": true,
+      "title": "Functional Mock-up Interface Specification, Version 3.0.2",
+      "authors": [
+        "Modelica Association Project FMI"
+      ],
+      "date": "2024-11-27",
+      "venue": "FMI Standard",
+      "url": "https://fmi-standard.org/docs/3.0.2/"
+    },
+    {
+      "type": "peer-reviewed conference paper",
+      "fullTextReviewed": false,
+      "reviewScope": "Bibliographic metadata and abstract-level claims only.",
+      "title": "Real-time co-simulation for the virtual commissioning of production systems",
+      "authors": [
+        "Christian Scheifele",
+        "Alexander Verl",
+        "Oliver Riedel"
+      ],
+      "date": "2019",
+      "venue": "Procedia CIRP 79, 397-402",
+      "doi": "10.1016/j.procir.2019.02.104",
+      "url": "https://doi.org/10.1016/j.procir.2019.02.104"
+    }
+  ],
+  "image": {
+    "originalGeneratedImage": true,
+    "file": "images/fmi3-scheduled-execution-edge-digital-twin.jpg",
+    "alt": "Industrial pump connected to an edge computer and partitioned digital twin models",
+    "attributionRequired": false,
+    "provenance": "Generated specifically for this article with ChatGPT image generation; no external image was copied."
+  },
+  "validation": {
+    "proseWords": 1373,
+    "finishedArticleWords": 1569,
+    "readingTimeMinutes": 8,
+    "authorExact": true,
+    "titleAndIdUnique": true,
+    "oneArticlePerSydneyWeek": true,
+    "twoPeerReviewedSources": true,
+    "authoritativeTechnicalSource": true,
+    "preprintsCountedAsPeerReviewed": 0,
+    "hypotheticalExampleLabelled": true,
+    "hypotheticalCostLabelled": true,
+    "articleAndFeedImageMatch": true,
+    "referencesAuthenticated": true,
+    "arithmeticChecked": true,
+    "outcome": "pass"
+  }
+}

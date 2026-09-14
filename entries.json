@@ -1,5 +1,23 @@
 [
   {
+    "title": "Deterministic Digital Twins at the Edge with FMI 3.0 Scheduled Execution",
+    "excerpt": "A practical path for packaging validated simulation components as clocked model partitions and running them predictably on industrial edge systems.",
+    "author": "concierge@massivequbit.io",
+    "date": "2026-09-14",
+    "readTime": "8 min read",
+    "category": "Simulation & Edge",
+    "image": "https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/main/images/fmi3-scheduled-execution-edge-digital-twin.jpg",
+    "id": "deterministic-digital-twins-at-the-edge-with-fmi-3-scheduled-execution",
+    "section": "latestinsights",
+    "status": "published",
+    "migratedSummary": false,
+    "imageAlt": "Industrial pump connected to an edge computer and partitioned digital twin models",
+    "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/deterministic-digital-twins-at-the-edge-with-fmi-3-scheduled-execution.md",
+    "automationWeek": "2026-09-14",
+    "articleSha256": "dcd4e7f3c2c839890ac1a25cdc8eef51ec22a9135fe61c344ba7886acd5b07fb",
+    "imageSha256": "75568d6757f98187df63aa59b7d4e100686a4fe8d643686a3b9a97d97881a85f"
+  },
+  {
     "title": "The Future of Digital Twins in Manufacturing",
     "excerpt": "Exploring how digital twin technology is revolutionizing manufacturing processes and enabling Industry 4.0 transformation.",
     "author": "concierge@massivequbit.io",

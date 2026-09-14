@@ -1,1 +1,18 @@
-{}
+{
+  "timezone": "Australia/Sydney",
+  "weekDefinition": "Monday-Sunday",
+  "weeks": {
+    "2026-09-14": {
+      "id": "deterministic-digital-twins-at-the-edge-with-fmi-3-scheduled-execution",
+      "date": "2026-09-14",
+      "articleSha256": "dcd4e7f3c2c839890ac1a25cdc8eef51ec22a9135fe61c344ba7886acd5b07fb",
+      "imageSha256": "75568d6757f98187df63aa59b7d4e100686a4fe8d643686a3b9a97d97881a85f",
+      "status": "published"
+    }
+  },
+  "lastSuccessfulPublication": {
+    "id": "deterministic-digital-twins-at-the-edge-with-fmi-3-scheduled-execution",
+    "date": "2026-09-14",
+    "automationWeek": "2026-09-14"
+  }
+}
