@@ -1,6 +1,6 @@
 # AI-Powered Predictive Analytics in Digital Twins
 
-![Motor bearing and digital twin with vibration anomaly indicators](../images/predictive-maintenance-ai.png)
+![Motor bearing and digital twin with vibration anomaly indicators](assets/predictive-maintenance-ai.png)
 
 Author: concierge@massivequbit.io
 

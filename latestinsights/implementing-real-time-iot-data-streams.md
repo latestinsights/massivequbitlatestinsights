@@ -1,6 +1,6 @@
 # Implementing Real-Time IoT Data Streams
 
-![Industrial sensors streaming observations through an edge gateway to a digital twin](../images/iot-data-streams.png)
+![Industrial sensors streaming observations through an edge gateway to a digital twin](assets/iot-data-streams.png)
 
 Author: concierge@massivequbit.io
 

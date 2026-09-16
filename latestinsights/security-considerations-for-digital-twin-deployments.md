@@ -1,6 +1,6 @@
 # Security Considerations for Digital Twin Deployments
 
-![Industrial turbine digital twin protected by layered cybersecurity boundaries](../images/digital-twin-security.png)
+![Industrial turbine digital twin protected by layered cybersecurity boundaries](assets/digital-twin-security.png)
 
 Author: concierge@massivequbit.io
 

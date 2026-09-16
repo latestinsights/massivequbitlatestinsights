@@ -1,6 +1,6 @@
 # The Future of Digital Twins in Manufacturing
 
-![Robotic manufacturing line beside its luminous digital twin](../images/manufacturing-digital-twin.png)
+![Robotic manufacturing line beside its luminous digital twin](assets/manufacturing-digital-twin.png)
 
 Author: concierge@massivequbit.io
 

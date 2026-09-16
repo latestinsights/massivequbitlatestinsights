@@ -1,6 +1,6 @@
 # Deterministic Digital Twins at the Edge with FMI 3.0 Scheduled Execution
 
-![Industrial pump connected to an edge computer and partitioned digital twin models](../images/fmi3-scheduled-execution-edge-digital-twin.jpg)
+![Industrial pump connected to an edge computer and partitioned digital twin models](assets/fmi3-scheduled-execution-edge-digital-twin.jpg)
 
 Author: concierge@massivequbit.io
 

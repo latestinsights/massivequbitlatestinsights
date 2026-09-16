@@ -1,6 +1,6 @@
 # Digital Twin ROI: Measuring Success Metrics
 
-![Industrial pump digital twin connected to operational performance measures](../images/digital-twin-roi.png)
+![Industrial pump digital twin connected to operational performance measures](assets/digital-twin-roi.png)
 
 Author: concierge@massivequbit.io
 

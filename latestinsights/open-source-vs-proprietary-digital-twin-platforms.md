@@ -1,6 +1,6 @@
 # Open Source vs Proprietary Digital Twin Platforms
 
-![Two digital twin platform architectures connected to the same industrial pump](../images/open-proprietary-platforms.png)
+![Two digital twin platform architectures connected to the same industrial pump](assets/open-proprietary-platforms.png)
 
 Author: concierge@massivequbit.io
 
