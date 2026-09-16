@@ -1,5 +1,24 @@
 [
   {
+    "title": "Semantic HVAC Twins: Portable Retrofit Analytics with Brick and BACnet",
+    "excerpt": "A practical retrofit architecture that turns inconsistent BACnet point data into a validated Brick knowledge graph for reusable HVAC analytics.",
+    "author": "concierge@massivequbit.io",
+    "date": "2026-09-17",
+    "readTime": "8 min read",
+    "category": "HVAC & Semantic Twins",
+    "areaOfInterest": "Digital twins, IoT, HVAC automation and semantic interoperability",
+    "image": "https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/main/latestinsights/assets/semantic-hvac-twin-brick-bacnet.jpg",
+    "id": "semantic-hvac-twins-portable-retrofit-analytics-with-brick-and-bacnet",
+    "section": "latestinsights",
+    "status": "published",
+    "migratedSummary": false,
+    "imageAlt": "Commercial HVAC plant, edge gateway and knowledge graph connected to a mirrored building digital twin",
+    "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/semantic-hvac-twins-portable-retrofit-analytics-with-brick-and-bacnet.md",
+    "automationSlot": "2026-09-17T05:30:00+10:00",
+    "articleSha256": "75b4c5eceb5a427add26c868398db1ca4e8b4d6ec31304fdfe0c5e6f2ca40410",
+    "imageSha256": "ce8204a301390a2f6a614bf2b79dc5b5ea50a38db8d6171d2a04af7fd5062822"
+  },
+  {
     "title": "Deterministic Digital Twins at the Edge with FMI 3.0 Scheduled Execution",
     "excerpt": "A practical path for packaging validated simulation components as clocked model partitions and running them predictably on industrial edge systems.",
     "author": "concierge@massivequbit.io",
