@@ -1,5 +1,24 @@
 [
   {
+    "title": "Shadow-Mode Digital Twins for V2X Cooperative Perception",
+    "excerpt": "A practical validation architecture that tests shared V2X object tracks against local sensors, maps, timing and uncertainty before they influence driver assistance.",
+    "author": "concierge@massivequbit.io",
+    "date": "2026-09-19",
+    "readTime": "8 min read",
+    "category": "Connected Vehicles & Validation",
+    "areaOfInterest": "Digital twins, IoT, V2X cooperative perception, connected vehicles and safety validation",
+    "image": "https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/main/latestinsights/assets/v2x-cooperative-perception-shadow-twin.jpg",
+    "id": "shadow-mode-digital-twins-for-v2x-cooperative-perception",
+    "section": "latestinsights",
+    "status": "published",
+    "migratedSummary": false,
+    "imageAlt": "Roadside sensors sending hidden-object tracks through a digital-twin validation gate to a connected vehicle",
+    "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/shadow-mode-digital-twins-for-v2x-cooperative-perception.md",
+    "automationSlot": "2026-09-19T05:30:00+10:00",
+    "articleSha256": "3635346de54da63bae9331145add584e066873ebda5f4c613695660d4f09b2e6",
+    "imageSha256": "e60fc525502cfcb040b28d40f13e9a6d4fde68a93d6a83315df2883540d68ac5"
+  },
+  {
     "title": "Closed-Loop Irrigation Digital Twins: From Soil Sensors to Guarded Valve Commands",
     "excerpt": "A staged architecture that combines field sensing, crop-water models and independently guarded valve commands for traceable precision irrigation.",
     "author": "concierge@massivequbit.io",
