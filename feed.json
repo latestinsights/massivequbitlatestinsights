@@ -1,5 +1,24 @@
 [
   {
+    "title": "Closed-Loop Irrigation Digital Twins: From Soil Sensors to Guarded Valve Commands",
+    "excerpt": "A staged architecture that combines field sensing, crop-water models and independently guarded valve commands for traceable precision irrigation.",
+    "author": "concierge@massivequbit.io",
+    "date": "2026-09-18",
+    "readTime": "8 min read",
+    "category": "Agriculture & Automation",
+    "areaOfInterest": "Digital twins, IoT, precision irrigation, optimization and guarded automation",
+    "image": "https://raw.githubusercontent.com/latestinsights/massivequbitlatestinsights/main/latestinsights/assets/closed-loop-irrigation-digital-twin.jpg",
+    "id": "closed-loop-irrigation-digital-twins-from-soil-sensors-to-guarded-valve-commands",
+    "section": "latestinsights",
+    "status": "published",
+    "migratedSummary": false,
+    "imageAlt": "Field sensors, root-zone water model and zoned irrigation valves connected through a digital twin",
+    "url": "https://github.com/latestinsights/massivequbitlatestinsights/blob/main/latestinsights/closed-loop-irrigation-digital-twins-from-soil-sensors-to-guarded-valve-commands.md",
+    "automationSlot": "2026-09-18T05:30:00+10:00",
+    "articleSha256": "9f36abcc550caecf41068f087ec975e077e385ea861f5997d80c99da59e626e8",
+    "imageSha256": "3d9271a3af7b2263b31c2e5e914986fa03992103b8e8a94bbbd2d5b746860fc9"
+  },
+  {
     "title": "Semantic HVAC Twins: Portable Retrofit Analytics with Brick and BACnet",
     "excerpt": "A practical retrofit architecture that turns inconsistent BACnet point data into a validated Brick knowledge graph for reusable HVAC analytics.",
     "author": "concierge@massivequbit.io",
